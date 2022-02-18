@@ -49,6 +49,10 @@ header h1 {
 	overflow: hidden;
 }
 
+.display label {
+	display: none;
+}
+
 .currValue {
 	background: transparent;
 	font-size: 3rem;
@@ -81,7 +85,8 @@ button {
 	font-family: inherit;
 }
 
-.clearEntry, .clear{
+.clearEntry,
+.clear {
 	text-transform: uppercase;
 }
 

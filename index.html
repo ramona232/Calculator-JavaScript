@@ -20,15 +20,17 @@
 
       <section class="display">
         <div class="preValue">0</div>
-        <input type="text" class="currValue" value="0" readonly />
+        <input type="text" class="currValue" value="0" id="display" readonly />
+        <label for="display">
+          enter number
+        </label>
       </section>
 
       <section class="buttons">
         <button class="clearEntry black " data-id="ce">ce</button>
         <button class="clear black " data-id="c">c</button>
-        <button class="delete black " data-id="Backspace"><i class="fas fa-backspace"></i></button>
-        <button class="operator devide black "
-        data-id="/">/</button>
+        <button class="delete black " data-id="Backspace" aria-label="delete"><i class="fas fa-backspace"></i></button>
+        <button class="operator devide black " data-id="/">/</button>
 
         <button class="number" data-id="7">7</button>
         <button class="number" data-id="8">8</button>
