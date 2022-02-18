@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <main>
+
+      <header>
+        <h1>Calculator <i class="fab fa-js-square"></i></h1>
+      </header>
+
+      <section class="display">
+        <div class="preValue">0</div>
+        <input type="text" class="currValue" value="0" readonly />
+      </section>
+
+      <section class="buttons">
+        <button class="clearEntry black " data-id="ce">ce</button>
+        <button class="clear black " data-id="c">c</button>
+        <button class="delete black " data-id="Backspace"><i class="fas fa-backspace"></i></button>
+        <button class="operator devide black "
+        data-id="/">/</button>
+
+        <button class="number" data-id="7">7</button>
+        <button class="number" data-id="8">8</button>
+        <button class="number" data-id="9">9</button>
+        <button class="operator black" data-id="*">*</button>
+
+        <button class="number" data-id="4">4</button>
+        <button class="number" data-id="5">5</button>
+        <button class="number" data-id="6">6</button>
+        <button class="operator black" data-id="-">-</button>
+
+        <button class="number" data-id="1">1</button>
+        <button class="number" data-id="2">2</button>
+        <button class="number" data-id="3">3</button>
+        <button class="operator black" data-id="+">+</button>
+
+        <button class="signChange" data-id="+/-"> +/- </button>
+        <button class="number" data-id="0">0</button>
+        <button class="number" data-id=".">.</button>
+        <button class="equals black" data-id="=">=</button>
+      </section>
+
+    </main>
+
+
+    <script src="index.js"></script>
+  </body>
+
+</html>
